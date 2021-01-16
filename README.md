@@ -29,3 +29,25 @@ Open localhost:8089 in browser
 Choose the db and enter login and pass
 
 Login to databases CRM and saas is "superAdmin". Password is "111111"
+
+
+# remark
+env:
+```
+yelloweideMac-mini-3:~ yellowei$ node -v
+v10.23.1
+yelloweideMac-mini-3:~ yellowei$ npm -v
+4.6.1
+```
+
+web address:
+```
+修改项目根目录下./config/environment/production.js中各服务地址
+```
+
+db address:
+主数据库mainDB中存有saas和CRM两个库的地址，记得修改数据库中存储的地址
+|  url   | DBname  |
+|  ----  | ----  |
+| localhost  | easyErp |
+| localhost  | CRM |
