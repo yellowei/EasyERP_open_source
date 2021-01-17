@@ -11,7 +11,7 @@ var App = App || {
 
 require.config({
     // baseUrl: '../public',
-
+    waitSeconds: 20,
     paths: {
         async          : './libs/async/lib/async',
         jQuery         : './libs/jquery-2.1.0.min.map',
@@ -38,7 +38,7 @@ require.config({
         wickedpicker   : './libs/wickedpicker/dist/wickedpicker.min',
         bxSlider       : './libs/bxslider-4/dist/jquery.bxslider.min',
         dragtable      : './libs/dragtable/jquery.dragtable',
-        gapi           : '//apis.google.com/js/platform'
+        //gapi           : '//apis.google.com/js/platform'
         //inbound_rocket : './libs/inboundrocket-tracking.min'
     },
 
@@ -61,9 +61,9 @@ require.config({
         backstratch    : ['jQuery'],
         wickedpicker   : ['jQuery'],
         bxSlider       : ['jQuery'],
-        gapi           : {
-            exports: 'gapi'
-        },
+        // gapi           : {
+        //     exports: 'gapi'
+        // },
 
         dragtable: ['jQuery', 'jqueryui'],
         // inbound_rocket: ['jQuery'],
@@ -81,7 +81,8 @@ require.config({
             exports: 'dateFormat'
         },
 
-        app: ['Backbone', 'jqueryui', 'ajaxForm', 'imageCrop', 'd3', 'backstratch', 'topojson', 'wickedpicker', 'malihuScrollBar', 'bxSlider', 'dragtable', 'gapi' /*'inbound_rocket'*/]
+        // app: ['Backbone', 'jqueryui', 'ajaxForm', 'imageCrop', 'd3', 'backstratch', 'topojson', 'wickedpicker', 'malihuScrollBar', 'bxSlider', 'dragtable', 'gapi' /*'inbound_rocket'*/]
+        app: ['Backbone', 'jqueryui', 'ajaxForm', 'imageCrop', 'd3', 'backstratch', 'topojson', 'wickedpicker', 'malihuScrollBar', 'bxSlider', 'dragtable' /*'inbound_rocket'*/]
     }
 });
 
@@ -114,12 +115,12 @@ require(['Backbone', 'jQuery', 'app'], function (Backbone, $, app) {
         });
     };
 
-    gapi.load('auth', function () {
-        /*auth2 = gapi.auth2.init({
-         client_id: '34449104416-ks7ifq1re2kgoapmeklqvoc6s19tv8tn.apps.googleusercontent.com',
-         scope    : 'profile'
-         });*/
-    });
+    // gapi.load('auth', function () {
+    //     /*auth2 = gapi.auth2.init({
+    //      client_id: '34449104416-ks7ifq1re2kgoapmeklqvoc6s19tv8tn.apps.googleusercontent.com',
+    //      scope    : 'profile'
+    //      });*/
+    // });
 
     app.initialize();
 });

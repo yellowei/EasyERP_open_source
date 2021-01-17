@@ -38,9 +38,9 @@ define([
             'click #dbs li'         : 'selectDb',
             click                   : 'hideSelect',
             'click .tabs'           : 'changeTab',
-            'click #facebookLogin'  : 'facebookLogin',
-            'click #linkedInLogin'  : 'linkedInLogin',
-            'click #gmailLogin'     : 'gmailLogin',
+            // 'click #facebookLogin'  : 'facebookLogin',
+            // 'click #linkedInLogin'  : 'linkedInLogin',
+            // 'click #gmailLogin'     : 'gmailLogin',
             'keyup .login'          : 'checkEmail'
         },
 

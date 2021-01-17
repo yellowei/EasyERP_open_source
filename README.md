@@ -51,3 +51,15 @@ db address:
 |  ----  | ----  |
 | localhost  | easyErp |
 | localhost  | CRM |
+
+# customize
+
+## 
+disabled gapi：
+主要修改的文件：
+```
+public/js/main.js
+public/js/views/login/LoginView.js
+```
+注释gapi的相关代码
+当然也可以全局搜索gapi，屏蔽功能部分
