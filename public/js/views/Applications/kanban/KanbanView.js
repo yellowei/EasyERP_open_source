@@ -470,7 +470,7 @@
                     }
                 }
             }).disableSelection();
-            $thisEl.append('<div id="timeRecivingDataFromServer">Created in ' + (new Date() - this.startTime) + ' ms</div>');
+            $thisEl.append('<div id="timeRecivingDataFromServer">创建d in ' + (new Date() - this.startTime) + ' ms</div>');
             $(document).on('keypress', '#cPerPage', this.isNumberKey);
             $thisEl.unbind();
             /* $(document).on('click', function (e) {

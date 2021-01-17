@@ -120,7 +120,7 @@ define([
             render: function () {
                 var self = this;
                 var $currentEl = this.$el;
-                var createdInTag = "<div id='timeRecivingDataFromServer'>Created in " + (new Date() - this.startTime) + " ms</div>";
+                var createdInTag = "<div id='timeRecivingDataFromServer'>创建d in " + (new Date() - this.startTime) + " ms</div>";
 
                 $currentEl.html('');
                 common.buildAphabeticArray(this.collection, function (arr) {

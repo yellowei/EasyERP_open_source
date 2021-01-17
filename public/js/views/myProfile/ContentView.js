@@ -258,7 +258,7 @@ define([
                     } else {
                         $("input[type='radio']:first").attr('checked', true);
                     }
-                    context.$el.append("<div id='timeRecivingDataFromServer'>Created in " + (new Date() - context.startTime) + ' ms</div>');
+                    context.$el.append("<div id='timeRecivingDataFromServer'>创建d in " + (new Date() - context.startTime) + ' ms</div>');
                 }, self);
             }, this);
 

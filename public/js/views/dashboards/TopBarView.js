@@ -8,7 +8,7 @@ define([
     var TopBarView = TopBarBase.extend({
         el           : '#top-bar',
         contentType  : CONSTANTS.DASHBOARDS,
-        contentHeader: 'Custom Dashboard',
+        contentHeader: '自定义报表',
         template     : _.template(ContentTopBarTemplate)
     });
 

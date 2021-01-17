@@ -1,12 +1,12 @@
 <div class="form-holder _newForm _createDashboardForm">
     <form method="post" action="" id="customDashboardForm">
-        <h2 class="_dialogMainTitle">Create Dashboard</h2>
+        <h2 class="_dialogMainTitle">创建报表</h2>
 
         <div class="_formWrap _enlargedItemMargin">
             <div class="_formBlock _equal">
                 <div class="_gridVisualWrap" id="wrap">
                     <div class="_gridColBar">
-                        <h3 class="_gridListTitle">Columns</h3>
+                        <h3 class="_gridListTitle">列数</h3>
                         <ul class="gridColList" id="colNumList">
                             <li class="colValue active" data-id="4">4</li>
                             <li class="colValue" data-id="6">6</li>
@@ -17,7 +17,7 @@
                     </div>
                     <div class="_gridVisualBoby">
                         <div class="_gridRowBar">
-                            <h3 class="_gridListTitle">Rows</h3>
+                            <h3 class="_gridListTitle">行数</h3>
                             <ul class="gridRowList" id="rowNumList">
                                 <li class="rowValue" data-id="2">2</li>
                                 <li class="rowValue" data-id="3">3</li>
@@ -42,13 +42,13 @@
                                placeholder="New Dashboard Name..."
                                required
                                maxlength="48"/>
-                        <label for="name" class="_animate">Name</label>
+                        <label for="name" class="_animate">报表名称</label>
                     </div>
                 </div>
                 <div class="_circleRadioGroup">
                     <div class="_circleRadioRadianceWrap">
                         <label for="privateAccess">
-                            Private
+                            个人
                         </label>
                         <input type="radio"
                                name="accessDashboard"
@@ -59,7 +59,7 @@
 
                     <div class="_circleRadioRadianceWrap">
                         <label for="publicAccess">
-                            Public
+                            公共
                         </label>
                         <input type="radio"
                                name="accessDashboard"
@@ -71,10 +71,10 @@
                 </div>
                 <div class="_animateTextareaBox counterWrap">
                     <textarea id="description" class="_animate" maxlength="200" required></textarea>
-                    <label for="description" class="_animate">Description</label>
+                    <label for="description" class="_animate">描述</label>
 
                     <div class="counter-wrap">
-                        <span class="counter-label">Characters left:</span>
+                        <span class="counter-label">剩余可输入字符数:</span>
                         <span class="counter-value" id="counterValue">200</span>
                     </div>
                 </div>

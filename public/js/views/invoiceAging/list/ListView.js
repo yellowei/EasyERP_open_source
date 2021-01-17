@@ -50,7 +50,7 @@ define([
 
             $currentEl.append(itemView.render()); // added two parameters page and items number
 
-            $currentEl.append("<div id='timeRecivingDataFromServer'>Created in " + (new Date() - this.startTime) + ' ms</div>');
+            $currentEl.append("<div id='timeRecivingDataFromServer'>创建d in " + (new Date() - this.startTime) + ' ms</div>');
 
             if (App.guide) {
                 if (App.notifyView) {

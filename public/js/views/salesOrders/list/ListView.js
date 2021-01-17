@@ -130,7 +130,7 @@ define([
             // this.renderPagination($thisEl, this);
             this.recalcTotal();
 
-            // $thisEl.append('<div id="timeRecivingDataFromServer">Created in ' + (new Date() - this.startTime) + ' ms</div>');
+            // $thisEl.append('<div id="timeRecivingDataFromServer">创建d in ' + (new Date() - this.startTime) + ' ms</div>');
         },
 
         gotoForm: function (e) {

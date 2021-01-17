@@ -274,7 +274,7 @@ define([
 
             Custom.setCurrentCL(this.collection.models.length);
             this.$el.html(_.template(ListTemplate, {workflowsWIds: workflowsWIds}));
-            this.$el.append('<div id="timeRecivingDataFromServer">Created in ' + (new Date() - this.startTime) + ' ms</div>');
+            this.$el.append('<div id="timeRecivingDataFromServer">创建d in ' + (new Date() - this.startTime) + ' ms</div>');
 
             li = this.$el.find('.workflow-list li').first().find('a.workflow');
             this.chooseWorkflowDetailes(null, li);
@@ -317,7 +317,7 @@ define([
             $thisEl.find('#workflows').append('<div class="addnew row"><div><input type="text" class="nameStatus" maxlength="32" required /></div>' +
                 '<div class="status-edit"><select id="statusesDd"></select></div>' +
                 '<div class="SaveCancel"><a href="javascript:;" id="saveStatus" class="btn slim blue">Save</a>' +
-                '<a  href="javascript:;" id="cancelStatus" class="btn slim ">Cancel</a></div></div>');
+                '<a  href="javascript:;" id="cancelStatus" class="btn slim ">取消</a></div></div>');
 
             text = '<a href="#">';
 

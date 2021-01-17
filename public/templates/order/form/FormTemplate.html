@@ -44,7 +44,7 @@
                 <%if(model.workflow && model.workflow.status !== 'Done'){%>
                 <%if(model.workflow && model.workflow.status !== 'Cancelled'){%>
                 <button class="btn slim editButton" title="Go To Edit">
-                    <span>Create Invoice</span>
+                    <span>创建 Invoice</span>
                 </button>
                 <%}%>
                 <%}%>
@@ -57,7 +57,7 @@
                 <a class="btn slim" href="<%= href%>">Go to unlinked products</a>
                 <% }%>
                 <%if (el.type === 'paymentMethod') {%>
-                <a class="btn slim" href="javascript:;" id="createPaymentMethod">Create Payment Method</a>
+                <a class="btn slim" href="javascript:;" id="createPaymentMethod">创建 Payment Method</a>
                 <% }%>
                 <%if (el.type === 'customer') {%>
                 <a class="btn slim" href="javascript:;" id="selectCustomer">Select Customer</a>

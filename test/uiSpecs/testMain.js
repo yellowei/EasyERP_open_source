@@ -1084,7 +1084,7 @@ var App = App || {
                     }
 
                     //$('#timeRecivingDataFromServer').remove();
-                    //this.$el.append("<div id='timeRecivingDataFromServer'>Created in " + (new Date() - this.startTime) + " ms</div>");
+                    //this.$el.append("<div id='timeRecivingDataFromServer'>创建d in " + (new Date() - this.startTime) + " ms</div>");
                 }
             };
 

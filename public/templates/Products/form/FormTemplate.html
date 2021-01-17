@@ -51,7 +51,7 @@
             <div class="full-width left">
                 <div class="inner">
                     <dl class="product-info">
-                        <dt><label>Description:</label></dt>
+                        <dt><label>描述:</label></dt>
                         <dd><span><%=info.description%></span></dd>
                     </dl>
                 </div>
@@ -61,7 +61,7 @@
         </div>
         <div class="edited-block">
             <p style="text-align:center;"><%if(editedBy.date){%><span style="font-style: italic;">Last Edited <%=editedBy.date%> by <%=editedBy.user ?  editedBy.user.login:""%></span>|
-                <%}%><span style="font-style: italic;">Created On <%=createdBy.date %> by <%=createdBy.user ? createdBy.user.login:"Incognito"%></span>
+                <%}%><span style="font-style: italic;">创建d On <%=createdBy.date %> by <%=createdBy.user ? createdBy.user.login:"Incognito"%></span>
             </p>
         </div>
         <div class="clearfix"></div>

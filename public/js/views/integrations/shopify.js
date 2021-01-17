@@ -202,7 +202,7 @@ define([
 
             if (!this.importLock) {
                 this.importLock = true;
-                $statusBlock.append('<li>All import</li>');
+                $statusBlock.append('<li>全部 import</li>');
                 dataService.getData('/integration/allShopify', {}, function (result) {
                     $statusBlock.append('<li>' + result && result.success + '</li>');
 

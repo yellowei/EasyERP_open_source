@@ -141,7 +141,7 @@
             var totalPages = this.collection.totalPages;
             var showMore = currentPage <= totalPages && totalPages !== 1;
 
-            var createdInTag = '<div id="timeRecivingDataFromServer">Created in ' + (new Date() - this.startTime) + 'ms </div>';
+            var createdInTag = '<div id="timeRecivingDataFromServer">创建d in ' + (new Date() - this.startTime) + 'ms </div>';
 
             if (showMore) {
                 $content.find('h2').remove();

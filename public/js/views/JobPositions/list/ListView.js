@@ -124,7 +124,7 @@ define([
                 App.notifyView = new GuideNotify({e: null, data: App.guide});
             }
             // this.renderPagination($currentEl, this);
-            // $currentEl.append('<div id="timeRecivingDataFromServer">Created in ' + (new Date() - this.startTime) + ' ms</div>');
+            // $currentEl.append('<div id="timeRecivingDataFromServer">创建d in ' + (new Date() - this.startTime) + ' ms</div>');
         },
 
         gotoForm: function (e) {

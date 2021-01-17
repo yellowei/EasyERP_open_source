@@ -924,7 +924,7 @@ define([
                 self.hideNewSelect();
             });
 
-            $currentEl.append("<div id='timeRecivingDataFromServer'>Created in " + (new Date() - this.startTime) + " ms</div>");
+            $currentEl.append("<div id='timeRecivingDataFromServer'>创建d in " + (new Date() - this.startTime) + " ms</div>");
         },
 
         showFilteredPage: function () {
@@ -969,7 +969,7 @@ define([
             this.$listTable.find('.icon.add').hide();
 
             holder.find('#timeRecivingDataFromServer').remove();
-            holder.append("<div id='timeRecivingDataFromServer'>Created in " + (new Date() - this.startTime) + " ms</div>");
+            holder.append("<div id='timeRecivingDataFromServer'>创建d in " + (new Date() - this.startTime) + " ms</div>");
         },
 
         createDefValues: function (content, month, year) {

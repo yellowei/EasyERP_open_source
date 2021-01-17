@@ -16,7 +16,7 @@
             <li><a href="javascript:;">Price Lists</a></li>
             <li><a href="javascript:;">Sales Channel</a></li>
             <% if (!product.isVariant) { %>
-            <li ><a id="createVariant" href="javascript:;">Create Variants</a></li>
+            <li ><a id="createVariant" href="javascript:;">创建 Variants</a></li>
             <% } else { %>
             <li><a href="javascript:;">Edit Variants</a></li>
             <% } %>
@@ -155,7 +155,7 @@
                                       placeholder="Description. Max 500 symbols."
                                       maxlength="500"
                                       required><%= (product.info && product.info.description) ? product.info.description : ''%></textarea>
-                            <label for="description" class="_animate">Description</label>
+                            <label for="description" class="_animate">描述</label>
                         </div>
                     </div>
                 </div>
@@ -338,8 +338,8 @@
             <% } else { %>
             <div class="dialog-tabs-item mainTabs">
                 <ul class="dialog-tabs" data-class="createVariantsTabs">
-                    <li><a class="active" href="javascript:;">Create Variants</a></li>
-                    <li><a href="javascript:;">Create SKUs</a></li>
+                    <li><a class="active" href="javascript:;">创建 Variants</a></li>
+                    <li><a href="javascript:;">创建 SKUs</a></li>
                     <li><a href="javascript:;">Add options</a></li>
                 </ul>
                 <div class="dialog-tabs-items createVariantsTabs">

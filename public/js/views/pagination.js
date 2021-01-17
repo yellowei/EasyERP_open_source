@@ -89,7 +89,7 @@ define([
             }
 
             if (!this.noNeedCreatedIn) {
-                createdInTag = '<div id="timeRecivingDataFromServer">Created in ' + (new Date() - this.startTime) + 'ms </div>';
+                createdInTag = '<div id="timeRecivingDataFromServer">创建d in ' + (new Date() - this.startTime) + 'ms </div>';
                 $curEl.append(createdInTag);
             }
         },

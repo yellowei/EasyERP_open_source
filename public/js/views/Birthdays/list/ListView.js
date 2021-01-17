@@ -32,7 +32,7 @@ define([
                 return item._id;
             }));
             common.getImages(ids, '/employees/getEmployeesImages');
-            this.$el.append("<div id='timeRecivingDataFromServer'>Created in " + (new Date() - this.startTime) + ' ms</div>');
+            this.$el.append("<div id='timeRecivingDataFromServer'>创建d in " + (new Date() - this.startTime) + ' ms</div>');
 
 
             if (App.guide) {

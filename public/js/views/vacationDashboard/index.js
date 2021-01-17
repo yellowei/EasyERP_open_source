@@ -522,7 +522,7 @@ define([
             statictics = new StatisticsView({});
 
             this.statisticsView$ = statictics;
-            $currentEl.append("<div id='timeRecivingDataFromServer'>Created in " + (new Date() - this.startTime) + ' ms</div>');
+            $currentEl.append("<div id='timeRecivingDataFromServer'>创建d in " + (new Date() - this.startTime) + ' ms</div>');
             this.calculateStatistics();
 
             /* this.findDataPickers(); */

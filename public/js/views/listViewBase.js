@@ -104,7 +104,7 @@ define([
             }
 
             $holder.find('#timeRecivingDataFromServer').remove();
-            $holder.append('<div id="timeRecivingDataFromServer">Created in ' + (new Date() - this.startTime) + ' ms</div>');
+            $holder.append('<div id="timeRecivingDataFromServer">创建d in ' + (new Date() - this.startTime) + ' ms</div>');
         },
 
         renderPagination: function ($currentEl, _self) {
